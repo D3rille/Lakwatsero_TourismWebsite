@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  /* font-family: Lato, serif; */
+  color: #222;
+}
+#head-about {
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+#dish {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+#content-note {
+  text-align: justify;
+}
+.quotes {
+  text-align: center;
+  margin-top: 2ex;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+}
+.profile {
+  box-shadow: 0px 6px 5px #ccc;
+}
+.content-about {
+  font-family: 'Lato', sans-serif;
+}
+.content-about {
+  text-align: justify;
+}
+.footer{
+  color: #ffff;
+}
+.content{
+  font-family: helvetica;
+  text-align: center;
+}
+.display-4, .display-2, #title-lodgings, #title-people{
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+#people-content{
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: 'Lato', sans-serif;
+}
+.padding text-center{
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+p{
+  font-size:1.4rem
+}
+img{
+    width: 100%;
+}
+#town_seal{
+    max-width:270px;
+}
+.row{
+    padding-inline:8px;
+}
+.navbar{
+  /* padding: 0.8rem; */
+  min-height:100px;
+  /* opacity: 0.8; */
+  background-image: url(../images/bg_header.png);
+  background-size: cover;
+}
+.navbar:hover{
+    color:#efc14c;
+}
+.navbar-brand img{
+  width:180px;
+}
+.navbar-nav li {
+  padding-right: 10px;
+}
+.nav-link{
+  font-size: 1.1rem !important;
+}
+.nav-link:hover{
+  color: #efc14c;
+}
+.btn-toggle-nav a {
+  display: inline-flex;
+  padding: 0.1875rem 0.5rem;
+  margin-top: 0.125rem;
+  margin-left: 1.25rem;
+  text-decoration: none;
+}
+.dropdown-menu{
+  background-color:#146c5f ;
+  width: fit-content;
+}
+.dropdown-item{
+  color:white;
+}
+.dropdown-item:hover{
+  color: #efc14c;
+  background-color: #146c5f;
+}
+.offcanvas-body .btn-toggle{
+  width: 100%;
+  text-align: left;
+}
+.offcanvas {
+  background-color: #146c5f;
+}
+.offcanvas-header{
+  color:white;
+}
+.offcanvas-header button {
+  background-color: white;
+}
+.offcanvas a, .offcanvas button, .link-white >a{
+  color:white;
+}
+.offcanvas a:hover, .offcanvas button:hover,.link-white  a:hover{
+  color:#efc14c;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 15px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary {
+  border: 1px solid #efc14c;
+  background-color: #efc14c;
+  color: black;
+}
+.btn-primary:hover {
+  background-color: #f2f0e6;
+  border: 1px solid black;
+  /* text-shadow: 0px 1px 2px #333333; */
+  color:black;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+/* .glimpse img{
+  width: 100%;
+} */
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  /* background-color: #3f3f3f; */
+  background-image: url(../images/bg_footer.png);
+  background-size: cover;
+  color: #d5d5d5;
+  padding: 2rem;
+  padding-block: 4.5rem;
+}
+.icon{
+  width: 30px;
+  display: inline;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #d5d5d5;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.profile{
+  border-radius: 50%;
+  max-width: 300px;
+  margin: 32px;
+}
+/* .card-text{
+  font-size: 2vw;
+} */
+
+.card-title{
+  font-size:3.3vw;
+  font-weight:200;
+}
+.card-subtitle{
+  font-size: 1.5vw;
+}
+
+
+
+/*---Media Queries --*/
+/* @media only screen and (min-width: 992px) {
+
+} */
+@media only screen and (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  .nav-link{
+      font-size: 0.75rem !important;/*0.75*/
+    }
+    .carousel-caption h1{
+      font-size: 320%;
+    }
+    .carousel-caption h3 {
+      font-size: 140%;
+      font-weight: 400;
+      padding-bottom: .2rem;
+  }
+  
+  .dropdown-item{
+    font-size: 0.65rem;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .carousel-caption{
+      top: 45%;
+  }
+  .carousel-caption h1 {
+      font-size: 350%;
+  }
+  .carousel-caption h3 {
+      font-size: 140%;
+      font-weight: 400;
+      padding-bottom: .2rem;
+  }
+  .carousel-caption .btn {
+      font-size: 95%;
+      padding: 8px 14px;
+  }
+  .display-4{
+      font-size: 400%;
+      font-family: Helvetica;
+  }
+  .social a {
+      font-size: 2.5em;
+      padding: 1.2rem;
+  }
+  
+}
+@media only screen and (max-width: 576px) {
+  .carousel-caption{
+      top: 40%;
+  }
+  .carousel-caption h1 {
+      font-size: 250%;
+  }
+  .carousel-caption h3 {
+      font-size: 110%;
+  }
+  .carousel-caption .btn {
+      font-size: 90%;
+      padding: 4px 8px;
+  }
+  .carousel-indicator {
+      display: none;
+  }
+  .display-4 {
+      font-size: 160%;
+  }
+  .social a {
+      font-size: 2em;
+      padding: .7rem;
+  }
+  
+}

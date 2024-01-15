@@ -1,0 +1,10 @@
+.card{
+    opacity: 85%;
+  }
+  .card:hover{
+    width: 101%;
+    height: 101%;
+    opacity: 100%;
+    border: 2px solid #146c5f;
+    
+  }
