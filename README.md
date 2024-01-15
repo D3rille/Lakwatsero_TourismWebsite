@@ -1,1 +1,1 @@
-![Home Page](screenCaptures/Homepage.html)
+![Home Page](./screenCaptures/Homepage.html)
